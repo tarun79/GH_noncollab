@@ -1,5 +1,9 @@
+def hello_world(city):
+    print(f'Hello World from {city}')
+
+
 def main():
-    print("Welcome to DevOps!!")
+    hello_world('NYC')
 
 
 main()
